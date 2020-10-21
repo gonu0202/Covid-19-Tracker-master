@@ -1,0 +1,86 @@
+.App {
+  text-align : center;
+}
+
+:root{
+  --mainBlue:#2a2a72;
+  --lightBlue: #009ffd;
+  --mainWhite:#f3f3f3;
+  --mainDark:#232528;
+  --mainYellow:#ffa400;
+  --transition: all 1s linear;
+}
+
+body{
+  font-family: "Oswald", sans-serif !important;
+  color: var(--mainDark) !important;
+  background: #eee!important;
+  font-family: sans-serif;
+}
+.row1 {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  background: #fff;
+  border-bottom: 4px solid red;
+}
+
+.NewConfirmed,
+.TotalConfirmed,
+.NewDeaths,
+.TotalDeaths,
+.TotalRecovered {
+  padding: 20px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.NewConfirmed {
+  color: #fff;
+  background: #e55959;
+}
+.TotalConfirmed{
+  color: #fff;
+  background: #00bcd4;
+}
+.NewDeaths{
+  color: #fff;
+  background: #4caf50;
+
+}
+.TotalDeaths{
+  color:#fff;
+  background: #9e9e9e;
+}
+.TotalRecovered {
+  color:#fff;
+  background: blue;
+}
+.Country {
+  background: #e6ffe6;
+}
+table {
+  border-collapse: separate;
+  width: 80%;
+  margin: 0 auto;
+  border-spacing: 0 12px;
+}
+
+table thead tr {
+  background: #fff;
+}
+
+table thead th {
+  padding: 18px 12px;
+  text-align: left;
+}
+
+table tbody tr {
+  background: #fff;
+}
+
+table tbody tr td {
+  padding: 18px 12px;
+  text-align:left;
+}
+
